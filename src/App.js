@@ -8,6 +8,7 @@ import { Projects } from "./pages/projects/projects";
 import { Stars } from "./pages/stars/stars";
 import { Followers } from "./pages/followers/followers";
 import { Following } from "./pages/following/following";
+
 function App() {
   return (
  <>

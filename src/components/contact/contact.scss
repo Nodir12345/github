@@ -1,36 +1,59 @@
-.contact_box{
+.contact_box {
   display: flex;
   align-items: center;
   gap: 5px;
-  >div{
-    display: flex; 
+  > div {
+    display: flex;
     align-items: center;
     gap: 3px;
-  
   }
-  >p{
+  > p {
     height: 30px;
   }
 }
-.edit{
-background-color: #21262D;
-padding: 8px 110px;
-font-size: 16px;
-border-radius: 5px;
-margin: 10px 0;
+.edit {
+  background-color: #21262d;
+  padding: 8px 110px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 10px 0;
 }
-.contact{
-  >img{
+.contact {
+  > img {
     border-radius: 50%;
     width: 320px;
     height: 320px;
   }
   margin-top: -55px;
   z-index: 100;
+  position: relative;
 }
-.follow2{
+.follow2 {
   font-size: 13px;
+  &:hover {
+    color: #38a6ff;
+  }
+}
+
+.editstatus {
+  position: absolute;
+  top: 236px;
+  left: 274px;
+  padding: 5px;
+  border-radius: 50%;
+  border: 1px solid #c9d1d92d;
+  display: flex;
+  align-items: center;
+  > p {
+    display: none;
+  }
   &:hover{
-    color: #38A6FF;
+    width: 80px;
+    border-radius: 15px;
+    >p{
+      display: block;
+      font-size: 11px;
+      color: #38a6ff;
+    }
   }
 }

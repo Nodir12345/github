@@ -15,12 +15,23 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
-
+.linkdi{
+  margin-left: 15px;
+  &:hover{
+color: #666565;
+transition: 1s;
+  }
+}
 
 button {
   background-color: inherit;
   color: inherit;
   border: inherit;
+}
+.divul{
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 .header {
   display: flex;
@@ -28,11 +39,7 @@ button {
   justify-content: space-between;
   padding: 20px 40px;
   background-color: #161b22;
-  > div > ul {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
+
   > div {
     display: flex;
     align-items: center;

@@ -87,7 +87,7 @@ export const Stars = () => {
 
           <div className="btnbox">
             <div className="btnrepo">
-              Type:All
+              Type: All
               <LongMenu>
                 <MenuItem style={{ color: "#fff", fontSize: "12px" }}>
                   <div className="selectx">

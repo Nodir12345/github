@@ -12,7 +12,8 @@ export const Contact = () => {
   }, []);
   return (
     <div className="contact">
-      <img src={value.avatar_url}alt="avatar" />
+      <img  src={value.avatar_url}alt="avatar" />
+      <div className="editstatus">😆 <p>edit status</p></div>
       <p>{value.login}</p>
       <button className="edit">Edit profile</button>
       <div className="contact_box">

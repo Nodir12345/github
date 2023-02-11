@@ -1,1 +1,61 @@
+.package{
+  display: flex;
+  align-items:  flex-start;
+}
 
+.package_box{
+>img{
+  text-align: center;
+  display: block;
+  width: 70px;
+  height: 60px;
+  margin: 0 auto;
+}
+}
+.package_title{
+  text-align: center;
+  font-size: 28px;
+  color: #C9D1D9;
+  font-weight: 600;
+}
+.package_text{
+  text-align: center;
+  font-size: 14px;
+  color: #C9D1D9;
+margin-top: 15px;
+  margin-bottom: 25px;
+}
+.choose{
+ text-align: center;
+ font-size: 20px;
+ color: #C9D1D9;
+ margin-bottom: 20px;
+}
+.pack_li{
+  width: 240px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #c9d1d939;
+}
+.df{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.pro_textq{
+  font-size: 12px;
+  color: #C9D1D9;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.proo_btn{
+  background-color: #21262D;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+.ul_wrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}

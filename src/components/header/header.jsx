@@ -46,13 +46,13 @@ export const Header = () => {
           <form>
             <input type="text" placeholder="Search or jump to..." />
           </form>
-          <ul>
-            <li>Pull requests</li>
-            <li>Issues</li>
-            <li>Codespaces</li>
-            <li>Marketplace</li>
-            <li>Explore</li>
-          </ul>
+          <div className="diul">
+            <Link className="linkdi" to="https://github.com/pulls">Pull requests</Link>
+            <Link className="linkdi" to="https://github.com/issues">Issues</Link>
+            <Link className="linkdi" to="https://github.com/codespaces">Codespaces</Link>
+            <Link className="linkdi" to="https://github.com/marketplace">Marketplace</Link>
+            <Link className="linkdi" to="https://github.com/explore">Explore</Link>
+          </div>
         </div>
         <div>
 
@@ -138,7 +138,7 @@ export const Header = () => {
             <button>
               <img
                 className="img_box"
-                src="https://media.npr.org/assets/img/2017/09/12/macaca_nigra_self-portrait-3e0070aa19a7fe36e802253048411a38f14a79f8-s1100-c50.jpg"
+                src="https://avatars.githubusercontent.com/u/115681011?v=4"
                 alt="Remy Sharp"
               />
               <div className="ring_i"></div>
@@ -244,7 +244,7 @@ export const Header = () => {
           <div className={`none ${fixed2 ? "block9" : ""}`}>
             <img
               className="img_box"
-              src="https://media.npr.org/assets/img/2017/09/12/macaca_nigra_self-portrait-3e0070aa19a7fe36e802253048411a38f14a79f8-s1100-c50.jpg"
+              src="https://avatars.githubusercontent.com/u/115681011?v=4"
               alt="Remy Sharp"
             />
 

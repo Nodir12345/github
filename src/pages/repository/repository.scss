@@ -1,0 +1,119 @@
+.btnrepo {
+  display: flex;
+  align-items: center;
+}
+.btnbox {
+  display: flex;
+  align-items: center;
+}
+.New {
+  background-color: #238636;
+  padding: 5px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-radius: 5px;
+}
+.repo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.repo1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.repoinput {
+  background: rgba(0, 0, 0, 0.17);
+  border: 1px solid #666565;
+  height: 25px;
+  width: 350px;
+  padding-left: 10px;
+  width: 370px;
+  margin-right: 30px;
+}
+
+.chek {
+  background-color: #21262d;
+  display: flex;
+  align-items: center;
+ padding-left: 10px;
+ border-radius: 5px;
+ height: 30px;
+}
+.publicrepo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  >div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+}
+
+.repolink{
+  font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: -0.01em;
+color: #58A6FF;
+}
+.btnss{
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.select {
+  width: 200px;
+  text-align: start;
+  color: #A6AEB6;
+
+}
+.selectx {
+  width: 200px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.select1{
+  display: flex;
+  align-items: center;
+  width: 200px;
+  text-align: start;
+  gap: 10px;
+}
+.git{
+  border: 1px solid #666565;
+  padding: 25px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+.fun{
+  margin-bottom: 20px;
+}
+.git{
+  >p{
+    font-size: 14px;
+    color: #A6AEB6;
+    >b{
+      color: #A6AEB6;
+    }
+  }
+}
+.git_content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.marimg{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,36 @@
+.contact_box{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  >div{
+    display: flex; 
+    align-items: center;
+    gap: 3px;
+  
+  }
+  >p{
+    height: 30px;
+  }
+}
+.edit{
+background-color: #21262D;
+padding: 8px 110px;
+font-size: 16px;
+border-radius: 5px;
+margin: 10px 0;
+}
+.contact{
+  >img{
+    border-radius: 50%;
+    width: 320px;
+    height: 320px;
+  }
+  margin-top: -55px;
+  z-index: 100;
+}
+.follow2{
+  font-size: 13px;
+  &:hover{
+    color: #38A6FF;
+  }
+}

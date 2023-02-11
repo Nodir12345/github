@@ -1,0 +1,28 @@
+.footer{
+  margin-top: 50px;
+}
+.footer_wrap{
+  display: flex;
+  align-items: center;
+ gap: 100px;
+ margin-top: 50px;
+ margin-bottom: 70px;
+}
+.footer_logoss{
+display: flex;
+align-items: center;
+gap: 5px;
+>p{
+  font-size: 11px;
+  color: #666565;
+}
+}
+.footer_link_box{
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  >.footer_link{
+    font-size: 12px;
+    color: #4D90DC;
+  }
+}
